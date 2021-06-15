@@ -39,5 +39,5 @@ function Teastylua()
 	vim.fn.winrestview(winview)
 end
 
-api.nvim_set_keymap("n", "<Plug>teastyluaFormat", "<cmd>call v:lua.Teastylua()<CR>", {})
+api.nvim_set_keymap("n", "<Plug>teastyluaFormat", "<cmd>call v:lua.Teastylua()<CR>", { noremap = true })
 
